@@ -116,7 +116,7 @@
 
 <p>This Privacy Policy describes how your information is collected, used, and protected when you use the <strong>Knotty</strong> mobile application (the "App"). The App is published under the brand name <strong>KnottyVentures</strong>.</p>
 
-<p>We have designed the App to collect as little personal data as possible. We do not require an email address, phone number, real name, or any other personally identifying information to play.</p>
+<p>We have designed the App to collect as little personal data as possible. We do not require an email address, phone number, real name, or any other personally identifying information to play. The App is supported by advertising provided by Google AdMob; the limited data collected for that purpose is described in Section 5 below.</p>
 
 <h2>1. Who We Are</h2>
 <p>The App is operated by:</p>
@@ -143,16 +143,17 @@
 <p>Per-question statistics (which questions you have seen, how often you answered correctly) and your settings (sound, theme) are stored <strong>only on your device</strong> and are never sent to our servers.</p>
 
 <h2>3. What We Do <em>Not</em> Collect</h2>
-<p>To make our position absolutely clear, the App does <strong>not</strong> collect, request, or have access to:</p>
+<p>To make our position absolutely clear, <strong>we (the operator of the App)</strong> do not collect, request, or have access to:</p>
 <ul>
   <li>Your real name, e-mail address, phone number, or postal address</li>
   <li>Your location (GPS or otherwise)</li>
   <li>Your camera, microphone, contacts, photos, or any other device sensors</li>
-  <li>Any device identifiers used for advertising (IDFA, AAID)</li>
-  <li>Any analytics or behavioral tracking data</li>
   <li>Any payment or financial information</li>
 </ul>
-<p>The App does not contain advertisements and does not offer in-app purchases.</p>
+<p>The App does not offer in-app purchases. The App does contain advertisements provided by Google AdMob; the data processed by AdMob (including advertising identifiers such as IDFA on iOS or AAID on Android) is described in Section 5.</p>
+
+<h3>Local storage</h3>
+<p>The App stores certain data locally on your device using standard application storage (a SQLite database for game content and player progress, plus configuration files for settings). The App is not a web application and does not use HTTP cookies. This local data never leaves your device unless explicitly described elsewhere in this Policy.</p>
 
 <h2>4. How We Use Your Data</h2>
 <p>We use the data described in Section 2 only for the following purposes:</p>
@@ -160,11 +161,12 @@
   <li>Providing the App's core functionality (saving your progress between sessions)</li>
   <li>Displaying the global leaderboard so you can see your position relative to other players</li>
   <li>Restoring your account if you reinstall the App on the same device</li>
+  <li>Displaying advertisements that fund the App, served through Google AdMob (see Section 5)</li>
 </ul>
-<p>We do <strong>not</strong> use your data for advertising, profiling, marketing, or any purpose unrelated to running the App.</p>
+<p>We do <strong>not</strong> use your data for profiling, e-mail marketing, or any purpose unrelated to running the App. We do not sell your data.</p>
 
 <h2>5. Third Parties</h2>
-<p>We rely on the following third-party service to operate the App:</p>
+<p>We rely on the following third-party services to operate the App:</p>
 
 <h3>Firebase (Google LLC / Google Cloud)</h3>
 <p>We use Firebase Authentication to create your anonymous account and Firestore to store your game progress and the leaderboard. Firebase is operated by Google and your data is processed on Google's infrastructure.</p>
@@ -172,43 +174,79 @@
   <li>Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
   <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
 </ul>
-<p>We have configured Firebase to collect only the minimum data necessary to operate the App.</p>
-<p>We do <strong>not</strong> use any analytics platform (such as Google Analytics, Firebase Analytics, or Mixpanel), advertising networks, or social media SDKs.</p>
+<p>We have configured Firebase to collect only the minimum data necessary to operate the App. We do <strong>not</strong> use Google Analytics, Firebase Analytics, Mixpanel, or any other dedicated behavioral analytics platform, and we do not embed any social media SDKs in the App.</p>
 
-<h2>6. Data Retention</h2>
+<h3>Google AdMob (Google LLC)</h3>
+<p>The App displays interstitial advertisements (shown between rounds) using <strong>Google AdMob</strong>. AdMob is provided by Google and acts as an independent data controller with respect to the data it collects for advertising purposes.</p>
+<p>For the purpose of serving and measuring ads, AdMob may collect or process:</p>
+<ul>
+  <li>Your advertising identifier — <strong>IDFA</strong> on iOS or <strong>AAID</strong> on Android — which is a resettable identifier provided by your operating system</li>
+  <li>Your IP address and approximate (city/region-level) location derived from it</li>
+  <li>Device information such as device model, operating system version, language, and time zone</li>
+  <li>Basic interaction data with the ads themselves (impressions, clicks)</li>
+</ul>
+<p>AdMob may use this data to serve <strong>personalized</strong> or <strong>non-personalized</strong> advertisements depending on your consent and applicable law (see "Consent for advertising in the EEA, UK and Switzerland" below).</p>
+<p>Useful links:</p>
+<ul>
+  <li>How Google uses information from sites or apps that use Google services: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+  <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+  <li>AdMob &amp; AdSense Privacy &amp; Terms: <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">https://support.google.com/admob/answer/6128543</a></li>
+</ul>
+
+<h4>Consent for advertising in the EEA, UK and Switzerland</h4>
+<p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, the App will display a consent prompt the first time you launch it (and on demand from the App's settings). This prompt is provided by <strong>Google's User Messaging Platform (UMP)</strong> and is compliant with the IAB Transparency &amp; Consent Framework (TCF) v2.</p>
+<p>Through this prompt you can choose between <strong>personalized ads</strong> (where AdMob and its advertising partners may use your advertising identifier and other data to tailor ads to you) and <strong>non-personalized ads</strong> (where ads are based only on coarse, non-identifying signals such as the current content and approximate location).</p>
+<p>You can withdraw or change your consent at any time through the App's settings. Withdrawing consent will not remove ads from the App; it will only switch them to the non-personalized variant.</p>
+
+<h4>Consent on iOS — App Tracking Transparency</h4>
+<p>On iOS 14.5 and later, before any tracking using IDFA can occur, Apple requires the App to display the system <strong>App Tracking Transparency (ATT)</strong> prompt. If you decline tracking, AdMob will not have access to your IDFA and will only show non-personalized ads.</p>
+
+<h2>6. Legal Basis for Processing (GDPR)</h2>
+<p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, the General Data Protection Regulation requires us to inform you of the legal basis on which we process your data. The bases are as follows:</p>
+<ul>
+  <li><strong>Performance of a contract — Article 6(1)(b) GDPR.</strong> Processing your anonymous UID, generated username, XP, level, and accuracy is necessary to provide the App's core functionality (saving progress, restoring your account, and displaying the leaderboard) as agreed in our Terms of Service.</li>
+  <li><strong>Legitimate interests — Article 6(1)(f) GDPR.</strong> We may process minimal technical data (such as basic error information) to keep the App running, prevent abuse of the leaderboard, and protect against fraud. We have assessed that this interest does not override your rights and freedoms, given the limited scope of data involved.</li>
+  <li><strong>Consent — Article 6(1)(a) GDPR.</strong> Personalized advertising delivered through Google AdMob, and any related processing of your advertising identifier (IDFA / AAID) for that purpose, is carried out only on the basis of your consent given through the in-app consent prompt described in Section 5. You may withdraw this consent at any time through the App's settings; withdrawal does not affect the lawfulness of processing carried out before the withdrawal.</li>
+</ul>
+<p>We do <strong>not</strong> rely on consent for the App's core functionality, because that processing is covered by performance of a contract.</p>
+
+<h2>7. Data Retention</h2>
 <p>Your data is retained as long as you keep the App installed and use it. Specifically:</p>
 <ul>
   <li><strong>Local data</strong> (per-question statistics, settings) remains on your device until you uninstall the App or clear its data.</li>
   <li><strong>Cloud data</strong> (UID, username, XP, level, accuracy) is stored on Firebase until you delete your account.</li>
 </ul>
 <p>You can delete your account at any time from within the App. When you delete your account, your cloud data is permanently removed from our servers within a reasonable period.</p>
-<p>If you simply uninstall the App without first deleting your account, your cloud data remains on our servers indefinitely (associated with your anonymous UID, with no way for us to identify or contact you).</p>
+<p>If you simply uninstall the App without first deleting your account, your cloud data remains on our servers (associated with your anonymous UID, with no way for us to identify or contact you). We may periodically purge anonymous accounts that have been inactive for a prolonged period (currently set at <strong>24 months</strong>) in order to minimize the data we hold.</p>
+<p>Data processed by Google AdMob for advertising purposes is retained according to Google's own retention policies — see the links in Section 5.</p>
 
-<h2>7. Your Rights Under GDPR</h2>
-<p>If you are located in the European Economic Area, you have the following rights under the GDPR:</p>
+<h2>8. Your Rights Under GDPR</h2>
+<p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, you have the following rights under the GDPR:</p>
 <ul>
   <li><strong>Right of access</strong> — You may request a copy of the data we hold about you.</li>
   <li><strong>Right to rectification</strong> — You may correct inaccurate data (for example, by changing your username in the App).</li>
   <li><strong>Right to erasure ("right to be forgotten")</strong> — You may delete your account from within the App, which removes all associated cloud data.</li>
+  <li><strong>Right to restriction of processing</strong> — You may request that we limit how we process your data in certain circumstances.</li>
   <li><strong>Right to data portability</strong> — You may request your data in a machine-readable format.</li>
-  <li><strong>Right to object</strong> — You may object to the processing of your data.</li>
+  <li><strong>Right to object</strong> — You may object to processing based on our legitimate interests.</li>
+  <li><strong>Right to withdraw consent</strong> — Where processing is based on consent (such as personalized advertising), you may withdraw your consent at any time, with effect for the future, through the App's settings.</li>
   <li><strong>Right to lodge a complaint</strong> — You may file a complaint with a supervisory authority. In the Czech Republic, this is the Office for Personal Data Protection (Úřad pro ochranu osobních údajů, <a href="https://www.uoou.cz" target="_blank" rel="noopener">www.uoou.cz</a>).</li>
 </ul>
 <p>To exercise any of these rights, contact us at <a href="mailto:knottyventures@gmail.com"><strong>knottyventures@gmail.com</strong></a>. Because the App does not collect your real identity, you may need to provide us with your anonymous UID (visible in the App's settings) so we can locate your data.</p>
 
-<h2>8. Children's Privacy</h2>
+<h2>9. Children's Privacy</h2>
 <p>The App is not directed at children under the age of 13. We do not knowingly collect data from children under 13. If you are a parent or guardian and believe your child has provided us with data, please contact us at <a href="mailto:knottyventures@gmail.com">knottyventures@gmail.com</a> and we will remove the data.</p>
 
-<h2>9. International Data Transfers</h2>
+<h2>10. International Data Transfers</h2>
 <p>Firebase processes data on Google's global infrastructure, which may include servers located outside the European Economic Area. Google provides appropriate safeguards for international data transfers under GDPR, including Standard Contractual Clauses. For details, see Google's documentation linked in Section 5.</p>
 
-<h2>10. Security</h2>
+<h2>11. Security</h2>
 <p>We rely on Firebase's industry-standard security measures, including encryption of data in transit (TLS) and at rest. While we take reasonable precautions, no system is completely secure. You acknowledge that you provide your data at your own risk.</p>
 
-<h2>11. Changes to This Policy</h2>
+<h2>12. Changes to This Policy</h2>
 <p>We may update this Privacy Policy from time to time. The current version is always available at this URL. The "Last updated" date at the top reflects the most recent revision. For material changes, we will notify users through the App.</p>
 
-<h2>12. Contact</h2>
+<h2>13. Contact</h2>
 <p>If you have questions about this Privacy Policy or about how we handle your data, contact us at:</p>
 <div class="contact-block">
   <p><a href="mailto:knottyventures@gmail.com"><strong>knottyventures@gmail.com</strong></a></p>
