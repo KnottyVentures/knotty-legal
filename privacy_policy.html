@@ -112,7 +112,7 @@
 <div class="container">
 
 <h1>Privacy Policy</h1>
-<p class="updated"><strong>Last updated:</strong> May 10, 2026</p>
+<p class="updated"><strong>Last updated:</strong> May 11, 2026</p>
 
 <p>This Privacy Policy describes how your information is collected, used, and protected when you use the <strong>Knotty</strong> mobile application (the "App"). The App is published under the brand name <strong>KnottyVentures</strong>.</p>
 
@@ -139,13 +139,24 @@
 <h3>Game statistics</h3>
 <p>We store your gameplay progress, including experience points (XP), player level, and accuracy percentage. This data is associated with your anonymous UID and is used to display the leaderboard.</p>
 
+<h3>Technical account metadata</h3>
+<p>To operate your account we also store the timestamp of your last activity ("last seen at") and which sign-in method you are currently using ("provider", such as <em>anonymous</em>, <em>email</em>, or <em>Google</em>). This data is associated with your UID.</p>
+
+<h3>Optional sign-in data</h3>
+<p>The App works fully without any sign-in. If you <strong>choose</strong> to upgrade your anonymous account to a permanent one — for example, to recover your progress on a new device — you can sign in using one of the following methods:</p>
+<ul>
+  <li><strong>E-mail and password</strong> — your e-mail address is stored both on your device and in our cloud backend, associated with your UID.</li>
+  <li><strong>Google Sign-In</strong> — Google provides us with the e-mail address of your Google account, which is stored both on your device and in our cloud backend, associated with your UID. We do not receive your Google password.</li>
+</ul>
+<p>Sign-in is entirely optional. If you do not sign in, no e-mail address is collected at any point.</p>
+
 <h3>Local-only data</h3>
 <p>Per-question statistics (which questions you have seen, how often you answered correctly) and your settings (sound, theme) are stored <strong>only on your device</strong> and are never sent to our servers.</p>
 
 <h2>3. What We Do <em>Not</em> Collect</h2>
 <p>To make our position absolutely clear, <strong>we (the operator of the App)</strong> do not collect, request, or have access to:</p>
 <ul>
-  <li>Your real name, e-mail address, phone number, or postal address</li>
+  <li>Your real name, phone number, or postal address (we never ask for these; an e-mail address is only collected if you choose to sign in, as described in Section 2)</li>
   <li>Your location (GPS or otherwise)</li>
   <li>Your camera, microphone, contacts, photos, or any other device sensors</li>
   <li>Any payment or financial information</li>
@@ -175,6 +186,9 @@
 </ul>
 <p>We have configured Firebase to collect only the minimum data necessary to operate the App. We do <strong>not</strong> use Google Analytics, Firebase Analytics, Mixpanel, or any other dedicated behavioral analytics platform, and we do not embed any social media SDKs in the App.</p>
 
+<h3>Google Sign-In (Google LLC)</h3>
+<p>If you choose to sign in using your Google account, the Google Sign-In SDK provides us with an identity token that contains the e-mail address associated with your Google account. We use this token solely to link your Google identity to your account in our App. We do not receive your Google password and we do not request access to any other Google services (such as Gmail, Drive, or Contacts).</p>
+
 <h2>6. Legal Basis for Processing (GDPR)</h2>
 <p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, the General Data Protection Regulation requires us to inform you of the legal basis on which we process your data. The bases are as follows:</p>
 <ul>
@@ -190,14 +204,14 @@
   <li><strong>Cloud data</strong> (UID, username, XP, level, accuracy) is stored on Firebase until you delete your account.</li>
 </ul>
 <p>You can delete your account at any time from within the App. When you delete your account, your cloud data is permanently removed from our servers within a reasonable period.</p>
-<p>If you simply uninstall the App without first deleting your account, your cloud data remains on our servers (associated with your anonymous UID, with no way for us to identify or contact you). We may periodically purge anonymous accounts that have been inactive for a prolonged period (currently set at <strong>24 months</strong>) in order to minimize the data we hold.</p>
+<p>If you simply uninstall the App without first deleting your account, your cloud data remains on our servers (associated with your anonymous UID, with no way for us to identify or contact you unless you previously signed in with an e-mail address or Google account). You may request deletion of your data at any time using the methods described in Section 8.</p>
 
 <h2>8. Your Rights Under GDPR</h2>
 <p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, you have the following rights under the GDPR:</p>
 <ul>
   <li><strong>Right of access</strong> — You may request a copy of the data we hold about you.</li>
   <li><strong>Right to rectification</strong> — You may correct inaccurate data (for example, by changing your username in the App).</li>
-  <li><strong>Right to erasure ("right to be forgotten")</strong> — You may delete your account from within the App, which removes all associated cloud data.</li>
+  <li><strong>Right to erasure ("right to be forgotten")</strong> — You may delete your account at any time using the <strong>Delete Account</strong> button in the App's settings, which removes your cloud data. If you no longer have the App installed, you may request deletion through our <a href="https://knottyventures.github.io/knotty-legal/delete_account.html" target="_blank" rel="noopener">account deletion page</a> or by e-mailing the address in Section 13.</li>
   <li><strong>Right to restriction of processing</strong> — You may request that we limit how we process your data in certain circumstances.</li>
   <li><strong>Right to data portability</strong> — You may request your data in a machine-readable format.</li>
   <li><strong>Right to object</strong> — You may object to processing based on our legitimate interests.</li>
