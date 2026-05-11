@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Account Deletion — Knotty</title>
+<style>
+  :root {
+    --bg:        #111213;
+    --surface:   #1a1b1d;
+    --text:      #e8e8e8;
+    --text-dim:  #a0a0a0;
+    --accent:    #f97316;
+    --border:    #2a2b2d;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    color: var(--text);
+    letter-spacing: -0.02em;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0 12px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+  p {
+    margin: 0 0 16px;
+    color: var(--text);
+  }
+  .updated {
+    color: var(--text-dim);
+    font-size: 14px;
+    margin: 0 0 32px;
+  }
+  ul {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+  li {
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease;
+  }
+  a:hover, a:focus {
+    border-bottom-color: var(--accent);
+  }
+  strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+  .contact-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  .contact-block p {
+    margin: 4px 0;
+  }
+  @media (max-width: 480px) {
+    .container { padding: 32px 20px 64px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Account Deletion</h1>
+<p class="updated"><strong>Last updated:</strong> May 11, 2026</p>
+
+<p>This page explains how to delete your <strong>Knotty</strong> account and the data associated with it.</p>
+
+<h2>1. Deleting from inside the App (recommended)</h2>
+<p>The fastest way to delete your account is from within the App itself:</p>
+<ul>
+  <li>Open <strong>Knotty</strong> on your device</li>
+  <li>Go to <strong>Settings → Account</strong></li>
+  <li>Tap <strong>Delete Account</strong> and confirm</li>
+</ul>
+<p>Your cloud data is removed from our servers within a reasonable period after you confirm.</p>
+
+<h2>2. Requesting deletion without the App</h2>
+<p>If you no longer have the App installed and cannot reinstall it, send us an e-mail at the address below with the subject line <strong>"Account deletion request"</strong>. Please include at least one of the following so we can locate your account:</p>
+<ul>
+  <li>Your in-app <strong>username</strong> (for example, "Knotty-AB12CD3")</li>
+  <li>The <strong>e-mail address</strong> you used to sign in, if you signed in with e-mail or Google</li>
+</ul>
+<div class="contact-block">
+  <p><a href="mailto:knottyventures@gmail.com?subject=Account%20deletion%20request"><strong>knottyventures@gmail.com</strong></a></p>
+</div>
+<p>We will process your request and confirm deletion by reply e-mail, typically within <strong>30 days</strong>.</p>
+
+<h2>3. What gets deleted</h2>
+<p>When your account is deleted, the following cloud data is permanently removed:</p>
+<ul>
+  <li>Your user account (anonymous UID, username, e-mail if any, sign-in provider)</li>
+  <li>Your game progress (XP, player level, accuracy)</li>
+  <li>Your entry on the global leaderboard</li>
+  <li>Your username reservation</li>
+</ul>
+<p>Local data stored on your device (per-question history, settings) is removed when you uninstall the App or clear its data from your device's system settings.</p>
+
+<h2>4. More information</h2>
+<p>For full details on what data we collect and how we handle it, see our <a href="https://knottyventures.github.io/knotty-legal/privacy_policy.html" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+
+</div>
+</body>
+</html>
